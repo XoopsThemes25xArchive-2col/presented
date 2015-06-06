@@ -1,0 +1,45 @@
+/* --------- Right columns --------- */
+#xo-canvas-rightcolumn {width : 270px;}
+#xo-canvas-rightcolumn h3.xo-blocktitle {
+	padding : 6px 30px;
+	background : #146BA6;
+	color : #fff;
+	font-size : 1.2em;
+}
+#xo-canvas-rightcolumn .xo-blockcontent {
+  padding : 3px;
+  line-height : 1.2em;
+  background-color : #E4EDF4;
+  border-left : #C8DBE9 25px solid;
+}
+
+/* --------- Center blocks --------- */
+#xo-page .xo-block {margin : 0 5px 5px 5px;}
+#xo-topcenterblocks, #xo-bottomcenterblocks {}
+#xo-topcenterblocks h3.xo-blocktitle, #xo-bottomcenterblocks h3.xo-blocktitle {
+  margin : 5px;
+  padding : 0 0 2px; 0;  
+  color : #232F01;
+  border-bottom : #BFC9AE dashed 1px;
+}
+#xo-topcenterblocks .xo-blockcontent, #xo-bottomcenterblocks .xo-blockcontent {
+  padding : 5px 8px 8px 8px;
+  margin-bottom : 2px;
+  line-height : 1.5em;
+  text-align : justify;
+}
+#xo-topleftblocks, #xo-bottomleftblocks, #xo-toprightblocks, #xo-bottomrightblocks {width : 49.5%;}
+#xo-topleftblocks h3.xo-blocktitle, #xo-bottomleftblocks h3.xo-blocktitle,
+#xo-toprightblocks h3.xo-blocktitle, #xo-bottomrightblocks h3.xo-blocktitle {
+  margin : 5px; 
+  color : #146BA6;
+  font-size : 1.2em;
+}
+#xo-topleftblocks .xo-blockcontent, #xo-toprightblocks .xo-blockcontent,
+#xo-bottomleftblocks .xo-blockcontent, #xo-bottomrightblocks .xo-blockcontent {
+  margin-bottom : 2px;
+  padding : 5px 8px 8px 8px;
+  line-height : 1.5em;
+  background-color : #E4EDF2;
+  text-align : justify;  
+}
